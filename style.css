@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for header */
+header {
+    background-color: #b94b4b;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Style for header h1 */
+header h1 {
+    margin: 0;
+}
+
+/* Style for navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style for navigation li */
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Style for navigation links */
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style for main section */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for section headings */
+h2 {
+    color: #333;
+    text-align: left;
+}
+
+/* Style for products */
+.produk {
+    margin-bottom: 20px;
+    border-bottom: 5px solid #cba1a1;
+    padding-bottom: 20px;
+}
+
+/* Style for product images */
+.produk img {
+    max-width: 60%;
+    height: 200px;
+}
+
+/* Style for product prices */
+.produk p {
+    margin: 5px 0;
+}
+
+/* Style for product links */
+.produk a {
+    
+    display: inline-block;
+    width: 100px;
+    background-color: #c3b987;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+/* Style for product links on hover */
+.produk a:hover {
+    background-color: #555;
+}
+
+/* Style for sections Pembayaran and Lokasi */
+section {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #f6cac7;
+}
+
+/* Style for section headings inside sections Pembayaran and Lokasi */
+section h2 {
+    color: #333;
+}
+
+/* Style untuk section Pembayaran */
+#pembayaran {
+    background-color: #ed9b95;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+#pembayaran h2 {
+    color: #333;
+}
+
+#pembayaran p {
+    color: #070707;
+    margin-bottom: 10px;
+}
+
+#pembayaran ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+#pembayaran ul li {
+    margin-bottom: 20px;
+}
+
+#pembayaran ul li::before {
+    content: "\2022"; /* bullet character */
+    color: #666;
+    display: inline-block;
+    width: 100px;
+    margin-left: -1em;
+}
+
+/* Style untuk section Lokasi */
+#lokasi {
+    background-color: #f6cac7;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+#lokasi h2 {
+    color: #333;
+}
+
+#lokasi .map {
+    
+    width: 100%;
+    height: 200px; 
+    margin-bottom: 10px;
+}
+
+#lokasi address {
+    color: #666;
+    font-style: normal;
+    margin-bottom: 10px;
+}
